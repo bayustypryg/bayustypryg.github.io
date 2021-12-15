@@ -34,7 +34,7 @@
                 <a class="nav-link" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
                 <a class="btn btn-sm btn-primary" href="#">Contact</a>
@@ -61,7 +61,7 @@
     <div data-bs-spy="scroll" data-bs-target="#nav" data-bs-offset="0">
         <!-- Education -->
         <div class="bg-primary">
-            <div class="container text-light" id="education" style="padding: 50px;">
+            <div class="container text-light" id="education" style="padding: 20px;">
                 <h3 class="mt-5">Education</h3>
                 <div class="row mt-4">
                     <div class="col-md-4">
@@ -95,7 +95,7 @@
             </div>
         </div>
         <!-- experience -->
-        <div class="container" id="experience" style="padding: 50px;">
+        <div class="container" id="experience" style="padding: 20px;">
             <h3 class="mt-5">Work Experience</h3>
             <ul class="mt-3">
                 <li>
@@ -111,37 +111,102 @@
             </ul>
         </div>
         <!-- skills -->
-        <div class="container mt-4" id="skills" style="padding: 50px;">
-            <h3>Skills</h3>
-            <div class="row mt-4">
-                <div class="col-md-2 text-center">
-                    <img src="img/html5.png" alt="" width="50px">
-                    <p class="mt-3">80%</p>
+        <div class="bg-dark text-light">
+            <div class="container" id="skills" style="padding: 20px;">
+                <h3 class=" mt-5">Skills</h3>
+                <div class="row mt-4">
+                    <div class="col-md-2 text-center">
+                        <img src="img/html5.png" alt="" width="50px">
+                        <p class="mt-3">80%</p>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <img src="img/css-3.png" alt="" width="50px">
+                        <p class="mt-3">60%</p>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <img src="img/bootstrap.png" alt="" width="50px">
+                        <p class="mt-3">80%</p>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <img src="img/php.png" alt="" width="50px">
+                        <p class="mt-3">70%</p>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <img src="img/laravel.png" alt="" width="100px">
+                        <p class="mt-3">50%</p>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <img src="img/java.png" alt="" width="50px">
+                        <p class="mt-3">30%</p>
+                    </div>
                 </div>
-                <div class="col-md-2 text-center">
-                    <img src="img/css-3.png" alt="" width="50px">
-                    <p class="mt-3">60%</p>
-                </div>
-                <div class="col-md-2 text-center">
-                    <img src="img/bootstrap.png" alt="" width="50px">
-                    <p class="mt-3">80%</p>
-                </div>
-                <div class="col-md-2 text-center">
-                    <img src="img/php.png" alt="" width="50px">
-                    <p class="mt-3">70%</p>
-                </div>
-                <div class="col-md-2 text-center">
-                    <img src="img/laravel.png" alt="" width="100px">
-                    <p class="mt-3">50%</p>
-                </div>
-                <div class="col-md-2 text-center">
-                    <img src="img/java.png" alt="" width="50px">
-                    <p class="mt-3">30%</p>
+            </div>
+        </div>
+        <!-- experience -->
+        <div class="bg-primary text-light">
+            <div class="container" id="projects" style="height: 100vh; padding: 20px;">
+                <h3 class="mt-5">Projects</h3>
+                <div class="row mt-5 justify-content-around">
+                    <div class="col-md-4 text-center">
+                        <a type="button" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#projects1">
+                            <img src="img/projects1.PNG" class="img-fluid" alt="">
+                        </a>
+                        <p>Web Company Profile Nobels House</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <a type="button" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#projects2">
+                            <img src="img/projects2.PNG" class="img-fluid" alt="">
+                        </a>
+                        <p>Web Company Profile Nobels House</p>
+                    </div>
+                    <!-- <div class="col-md-4 text-center">
+                        <a type="button" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#projects1">
+                            <img src="img/projects1.PNG" class="img-fluid" alt="">
+                        </a>
+                        <p>Web Company Profile Nobels House</p>
+                    </div> -->
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- Modal -->
+<div class="modal fade" id="projects1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Nobels House</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img src="img/projects1.PNG" class="img-fluid" alt="">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <a href="https://nobelshouse.netlify.app/" class="btn btn-primary">Show</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Modal -->
+<div class="modal fade" id="projects2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Nobels House</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img src="img/projects2.PNG" class="img-fluid" alt="">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <!-- <a href="https://nobelshouse.netlify.app/" class="btn btn-primary">Show</a> -->
+        </div>
+      </div>
+    </div>
+  </div>
     
     
 
